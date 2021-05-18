@@ -1,5 +1,7 @@
 body {
   background: black;
+  max-height: 812px;
+  max-width: 375px;
 }
 
 h1 {
