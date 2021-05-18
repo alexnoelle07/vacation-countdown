@@ -1,33 +1,33 @@
 body {
+  margin: 0 auto;
   background: black;
   max-height: 812px;
   max-width: 375px;
 }
 
 h1 {
-  background: linear-gradient(
-    90deg,
-    rgba(255, 0, 0, 1) 0%,
-    rgba(255, 154, 0, 1) 10%,
-    rgba(208, 222, 33, 1) 20%,
-    rgba(79, 220, 74, 1) 30%,
-    rgba(63, 218, 216, 1) 40%,
-    rgba(47, 201, 226, 1) 50%,
-    rgba(28, 127, 238, 1) 60%,
-    rgba(95, 21, 242, 1) 70%,
-    rgba(186, 12, 248, 1) 80%,
-    rgba(251, 7, 217, 1) 90%,
-    rgba(255, 0, 0, 1) 100%
-  );
-  margin-top: 50px;
-  font-size: 90px;
-  color: #fff;
+  background: linear-gradient(#5dffa7, #ff90ed);
+  font-family: "Poiret One", cursive;
+  height: 60px;
+  padding-top: 5px;
+  width: 358px;
+  margin: 50px 10px 28px 10px;
+  font-size: 38px;
+  color: #000;
+
   text-align: center;
-  border: 1px solid white;
+  border: 1px solid #000;
   border-radius: 6px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
-
+.lastDay {
+  text-align: center;
+  color: #c566ff;
+  font-size: 38px;
+  opacity: 89%;
+  font-family: "Poiret One", cursive;
+  margin-bottom: 28px;
+}
 .col-3 {
   display: block;
   color: #fff;
