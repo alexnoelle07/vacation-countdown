@@ -42,3 +42,10 @@ function initializeClock(id, endtime) {
 }
 
 initializeClock('clockdiv', deadline);
+
+function showWeather(event) {
+  event.preventDefault();
+  houston.innerHTML = "It is hot."
+}
+
+document.getElementById("houston").addEventListener("click", showWeather);
