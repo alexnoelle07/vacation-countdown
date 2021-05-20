@@ -43,9 +43,42 @@ function initializeClock(id, endtime) {
 
 initializeClock('clockdiv', deadline);
 
-function showWeather(event) {
-  event.preventDefault();
-  houston.innerHTML = "It is hot."
+// show temperature in Houston
+
+function searchHouston() {
+  let apiKey = "cd0505d0c14f390be6a62ee650d13e27";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Houston&appid=${apiKey}&units=metric`;
+
+  axios.get(apiUrl).then(showWeatherHouston);
 }
 
-document.getElementById("houston").addEventListener("click", showWeather);
+function showWeatherHouston(response) {
+  let houstonTemp = document.querySelector("#houston");
+  let houstonTempNow = Math.round(response.data.main.temp);
+  houstonTemp.innerHTML = `${houstonTempNow}°C`;
+
+}
+
+
+let getHoustonTemp = document.getElementById("houston");
+getHoustonTemp.addEventListener("click", searchHouston);
+
+//show temperature in Aruba
+
+function searchAruba() {
+  let apiKey = "cd0505d0c14f390be6a62ee650d13e27";
+  let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=Aruba&appid=${apiKey}&units=metric`;
+
+  axios.get(apiUrl).then(showWeatherAruba);
+}
+
+function showWeatherAruba(response) {
+  let arubaTemp = document.querySelector("#aruba");
+  let arubaTempNow = Math.round(response.data.main.temp);
+  arubaTemp.innerHTML = `${arubaTempNow}°C`;
+
+}
+
+
+let getArubaTemp = document.getElementById("aruba");
+getArubaTemp.addEventListener("click", searchAruba);
