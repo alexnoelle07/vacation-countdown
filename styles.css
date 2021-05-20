@@ -13,6 +13,7 @@ h1 {
   width: 358px;
   margin: 50px 10px 28px 10px;
   font-size: 38px;
+  font-weight: bold;
   color: #000;
 
   text-align: center;
@@ -23,6 +24,7 @@ h1 {
 .lastDay {
   text-align: center;
   color: #c566ff;
+  font-weight: bold;
   font-size: 38px;
   opacity: 89%;
   font-family: "Poiret One", cursive;
@@ -30,11 +32,48 @@ h1 {
 }
 .col-3 {
   display: block;
-  color: #fff;
-  font-size: 20px;
+  max-height: 91px;
+  max-width: 77px;
+  color: #000;
+  font-family: "Poiret One", cursive;
+  font-weight: bold;
+  font-size: 17px;
   margin: 0 auto;
-  border: 1px solid white;
-  border-radius: 6px;
+  background: linear-gradient(#ff90ed, #fb8e2a);
+  border-radius: 5px;
   text-align: center;
-  box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
+}
+.houston {
+  display: block;
+  margin: 33px auto;
+  color: #fff;
+  background-image: url("images/houston.jpg");
+  background-size: 325px 176px;
+  background-repeat: no-repeat;
+  padding: 98px 7px 10px 7px;
+  max-height: 176px;
+  max-width: 325px;
+  border-radius: 5px;
+  opacity: 56%;
+  text-align: center;
+  font-family: "B612", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+}
+.aruba {
+  display: block;
+  margin: 0 auto;
+  background-image: url("images/aruba.jpg");
+  background-size: 325px 176px;
+  background-repeat: no-repeat;
+  padding: 98px 7px 10px 7px;
+  max-height: 176px;
+  max-width: 325px;
+  border-radius: 5px;
+  color: #fff;
+  opacity: 56%;
+  text-align: center;
+  font-family: "B612", sans-serif;
+  font-weight: bold;
+  font-size: 64px;
 }
