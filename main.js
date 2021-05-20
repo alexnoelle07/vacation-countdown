@@ -81,4 +81,6 @@ function showWeatherAruba(response) {
 
 
 let getArubaTemp = document.getElementById("aruba");
+
 getArubaTemp.addEventListener("click", searchAruba);
+
