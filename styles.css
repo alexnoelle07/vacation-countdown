@@ -21,6 +21,9 @@ h1 {
   border-radius: 6px;
   box-shadow: rgb(38, 57, 77) 0px 20px 30px -10px;
 }
+.info {
+  line-height: 0.8;
+}
 .lastDay {
   text-align: center;
   color: #c566ff;
@@ -74,4 +77,18 @@ h1 {
   font-family: "B612", sans-serif;
   font-weight: bold;
   font-size: 60px;
+}
+
+.info {
+  display: block;
+  font-weight: bold;
+  background: linear-gradient(#5dffa7, #ff90ed);
+  font-family: "Poiret One", cursive;
+  text-align: center;
+  color: #000;
+  height: 25px;
+  width: 50px;
+  margin: 30px auto;
+  text-decoration: none;
+  border-radius: 5px;
 }

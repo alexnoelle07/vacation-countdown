@@ -1,6 +1,6 @@
 // setting end date
 
-const deadline = 'June 3 2021 17:00:00';
+const deadline = 'June 7 2021 17:00:00';
 
 //calculate remaining time
 
